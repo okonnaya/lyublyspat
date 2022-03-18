@@ -1,0 +1,98 @@
+/* вторая страница!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+#secondpage{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 115.68%;
+  margin-left: 2%;
+  margin-top: 2%;
+  display: none;
+
+}
+
+input{
+  position: relative;
+  cursor: pointer;
+  font-family: Playfair Display;
+  color: black;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 115.68%;
+  border: 0;
+  background-color: #FF73BE;
+  border-radius: 95px;
+
+}
+input:hover {
+  background-color: #73BCFF;
+}
+input:focus {
+  background: #73BCFF;
+}
+
+input::placeholder{
+  color: black;
+}
+
+.word{
+  position: relative;
+  display:inline-block;
+  cursor: pointer;
+}
+
+.word:hover{
+  color: rgba(0, 0, 0, 0.7);
+}
+#word1{
+  margin-left: 23%;
+}
+#word6{
+  display:inline-block;
+  cursor: pointer;
+  background-color: #DBFF73;
+  border-radius: 95px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+#word6:hover{
+  background-color: #FF73BE;
+}
+
+
+#jpg1{
+  position: absolute;
+  top: -58vh;
+  left: 71vw;
+  width: 15vw;
+  height: 10vh;
+  background-color: #FF73BE;
+  background-image: url("../images/img11.jpg");
+  background-size: cover;
+}
+
+#jpg2{
+  position: relative;
+  top: -7vh;
+  width: 96vw;
+  height: 10vh;
+  background-color: #FF73BE;
+  background-image: url("../images/img21.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+#word9{
+  top: -8vh;
+}
+
+#buttons{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 55px;
+  width: 190px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>конструктор автобиографии</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{ссылка}">
+    <meta property="og:title" content="название">
+    <meta property="og:description" content="текст">
+    <meta property="og:image" content="{картинка}">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="js\javascript.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+  </head>
+  <body>
+    <section id = 'firstpage'>
+      <h3>конструктор<br>биографии</h3>
+      <p id = 'text'>попробуй поработать в бюро «нить»‎<br>и собери будущее </p>
+      <div id = 'below'>
+        <footer>
+          <p id = 'signature1'>Рамазанова Карина</p>
+          <p id = 'signature2'>Б21ДЗ08</p>
+        </footer>
+        <button type="button" class = 'button' onclick = 'start()'>начать</button>
+      </div>
+    </section>
+    <section id = 'secondpage'>
+      <input type="text" id="nameinput" name="name"
+        required
+          minlength="3" maxlength="19" placeholder="Пушкин Александр">
+      <div></div>
+      <h2 class = 'word' id = 'word1' onclick="changeonlick1()" >великий</h2>
+      <h2 class = 'word' id = 'word2' onclick="changeonlick2()">русский</h2>
+      <div></div>
+      <h2 class = 'word' id = 'word3' onclick="changeonlick3()">поэт,</h2>
+      <h2 class = 'word' id = 'word4' onclick="changeonlick4()">прозаик,</h2>
+      <div></div>
+      <h2 class = 'word' id = 'word5' onclick="changeonlick5()">драматург,</h2>
+      <h2 id = 'word6'>публицист,</h2>
+      <div></div>
+      <h2 class = 'word' id = 'word7' onclick="changeonlick7()">критик.</h2>
+      <h2 class = 'word' id = 'word8' onclick="changeonlick8()">Родился</h2>
+      <div id = "jpg1" class = "draggable" onclick="changeimgonlick1()"></div>
+      <div id = "jpg2" class = "draggable" onclick="changeimgonlick2()"></div>
+      <div></div>
+      <h2 class = 'word' id = 'word9' onclick="changeonlick9()">6 июня 1799г. в</h2>
+
+      <div id = "buttons">
+        <img id = "info" src="images/info.svg" alt="">
+        <img id = "reset" src="images/reset.svg" alt="">
+        <img id = "export" src="images/export.svg" alt="">
+
+      </div>
+    </section>
+  </body>
+</html>
