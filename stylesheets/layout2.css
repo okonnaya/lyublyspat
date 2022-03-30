@@ -3,26 +3,33 @@
 #secondpage{
   font-style: normal;
   font-weight: normal;
-  font-size: 110px;
+  /* font-size: 110px; */
+  font-size: 10vh;
   line-height: 115.68%;
   margin-left: 2%;
-  margin-top: 2%;
+  margin-top: 1vh;
   display: none;
-
 }
 
+
 input{
+  text-align: center;
+  display:inline-block;
   position: relative;
   cursor: pointer;
   font-family: Playfair Display;
   color: black;
   font-style: italic;
   font-weight: normal;
-  font-size: 110px;
-  line-height: 115.68%;
+  /* font-size: 110px; */
+  /* font-size: 687.5%; */
+  font-size: 100%;
+  /* line-height: 115.68%; */
   border: 0;
   background-color: #FF73BE;
   border-radius: 95px;
+  height: 10vh;
+  padding-bottom: 1vw;
 
 }
 input:hover {
@@ -30,7 +37,10 @@ input:hover {
 }
 input:focus {
   background: #73BCFF;
+  border: 0;
 }
+
+
 
 input::placeholder{
   color: black;
@@ -40,12 +50,16 @@ input::placeholder{
   position: relative;
   display:inline-block;
   cursor: pointer;
+  margin: 0;
+  padding: 0;
+  top: -1vh;
+
 }
 
 .word:hover{
   color: rgba(0, 0, 0, 0.7);
 }
-#word1{
+#word1, #word10 {
   margin-left: 23%;
 }
 #word6{
@@ -55,6 +69,13 @@ input::placeholder{
   border-radius: 95px;
   font-style: italic;
   cursor: pointer;
+  /* height: 11vh; */
+  height: 10vh;
+  padding-bottom: 1vw;
+  width: 33vw;
+  padding-bottom: 3vh;
+  text-align: center;
+
 }
 
 #word6:hover{
@@ -64,35 +85,149 @@ input::placeholder{
 
 #jpg1{
   position: absolute;
-  top: -58vh;
+  bottom: 58vh;
   left: 71vw;
   width: 15vw;
   height: 10vh;
   background-color: #FF73BE;
   background-image: url("../images/img11.jpg");
   background-size: cover;
+  cursor: pointer;
 }
 
 #jpg2{
   position: relative;
-  top: -7vh;
+  top: -9vh;
   width: 96vw;
   height: 10vh;
   background-color: #FF73BE;
   background-image: url("../images/img21.jpg");
   background-size: cover;
   background-position: center;
+  cursor: pointer;
 
 }
 
-#word9{
-  top: -8vh;
+#jpg3{
+  position: absolute;
+  bottom: 91vh;
+  left: 76vw;
+  width: 20vw;
+  height: 20vh;
+  background-image: url("../images/img31.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#jpg4{
+  position: absolute;
+  bottom: 50vh;
+  width: 15vw;
+  height: 10vh;
+  background-color: #FF73BE;
+  background-image: url("../images/img41.jpg");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+  #word10{
+    top: -20vh;
+  }
+
+#date{
+    top: -8vh;
+    width: 30vw;
+}
+select{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  background-color: #73BCFF;
+  border-radius: 95px;
+  position: relative;
+  cursor: pointer;
+  font-family: Playfair Display;
+  color: black;
+  font-style: italic;
+  font-weight: normal;
+  border: 0;
+  font-size: 100%;
+  top: -20vh;
+  appearance: none;
+  height: 12vh;
+  left: 61vh;
+}
+
+select:hover{
+  background-color: #DBFF73;
+}
+
+select::selection{
+  border: 0;
 }
 
 #buttons{
   position: absolute;
-  top: 0;
+  top: -2vh;
   right: 0;
   height: 55px;
   width: 190px;
+}
+
+#info, #reset {
+  height: 5vh;
+  cursor: pointer;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.infowindow{
+  position: absolute;
+  text-align: center;
+  bottom: 37vh;
+  left: 40vw;
+  width: 30vw;
+  height: 20vh;
+  padding-top: 3vh;
+  background-color: #1E1E1E;
+  border-radius: 42px;
+  color: white;
+  font-size: 3.5vh;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 115%;
+  text-align: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ok{
+  position: absolute;
+  text-align: center;
+  bottom: 2vh;
+  left: 12vw;
+  width: 7vh;
+  height: 5vh;
+  background: #FF73BE;
+  border-radius: 95px;
+  color: black;
+  font-size: 3.5vh;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 100%;
+  padding-top: 1vh;
+  cursor: pointer;
+
+}
+
+.ok:hover{
+  background-color: white;
+  color: black;
+}
+
+.visibility{
+  display: none
 }
