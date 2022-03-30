@@ -21,15 +21,13 @@ input{
   color: black;
   font-style: italic;
   font-weight: normal;
-  /* font-size: 110px; */
-  /* font-size: 687.5%; */
   font-size: 100%;
-  /* line-height: 115.68%; */
   border: 0;
   background-color: #FF73BE;
   border-radius: 95px;
   height: 10vh;
   padding-bottom: 1vw;
+  width: 65%;
 
 }
 input:hover {
@@ -44,6 +42,16 @@ input:focus {
 
 input::placeholder{
   color: black;
+}
+
+
+#nameinput2{
+    width: 58vh;
+    background-color: #DBFF00;
+}
+
+#nameinput2:hover {
+  background-color:#FF73BE;
 }
 
 .word{
@@ -111,7 +119,7 @@ input::placeholder{
 #jpg3{
   position: absolute;
   bottom: 91vh;
-  left: 76vw;
+  right: -76vw;
   width: 20vw;
   height: 20vh;
   background-image: url("../images/img31.jpg");
@@ -131,13 +139,13 @@ input::placeholder{
   background-position: center;
   cursor: pointer;
 }
-  #word10{
-    top: -20vh;
-  }
+#word10{
+  top: -20vh;
+}
 
 #date{
     top: -8vh;
-    width: 30vw;
+    width: 56vh;
 }
 select{
   display: flex;
@@ -169,15 +177,13 @@ select::selection{
 }
 
 #buttons{
-  position: absolute;
+  position: fixed;
   top: -2vh;
-  right: 0;
-  height: 55px;
-  width: 190px;
+  right:1vw;
 }
 
 #info, #reset {
-  height: 5vh;
+  height: 3.5vw;
   cursor: pointer;
 }
 
