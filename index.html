@@ -12,6 +12,8 @@
     <meta property="og:image" content="{картинка}">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <!-- <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+    <script src="js\jquery1.12.4.js" charset="utf-8"></script>
     <script src="js\javascript.js" charset="utf-8"></script>
     <link rel="stylesheet" href="stylesheets/styles.css">
   </head>
@@ -24,13 +26,13 @@
           <p id = 'signature1'>Рамазанова Карина</p>
           <p id = 'signature2'>Б21ДЗ08</p>
         </footer>
-        <button type="button" class = 'button' onclick = 'start()'>начать</button>
+        <div class = 'containerforbtn'>
+          <button type="button" class = 'button' onclick = 'start()'>начать</button>
+        </div>
       </div>
     </section>
     <section id = 'secondpage'>
-      <input type="text" id="nameinput" name="name"
-        required
-          minlength="3" maxlength="19" placeholder="Пушкин Александр">
+      <input type="text" id="nameinput" name="name" required minlength="3" maxlength="19" placeholder="Пушкин Александр" onkeypress="this.style.width = ((this.value.length + 1) * 3.15) + '%';">
       <div></div>
       <h2 class = 'word' id = 'word1' onclick="changeonlick1()" >великий</h2>
       <h2 class = 'word' id = 'word2' onclick="changeonlick2()">русский</h2>
@@ -39,20 +41,36 @@
       <h2 class = 'word' id = 'word4' onclick="changeonlick4()">прозаик,</h2>
       <div></div>
       <h2 class = 'word' id = 'word5' onclick="changeonlick5()">драматург,</h2>
-      <h2 id = 'word6'>публицист,</h2>
+      <h2 id = 'word6' onclick="shakeeffect()">публицист,</h2>
       <div></div>
       <h2 class = 'word' id = 'word7' onclick="changeonlick7()">критик.</h2>
       <h2 class = 'word' id = 'word8' onclick="changeonlick8()">Родился</h2>
       <div id = "jpg1" class = "draggable" onclick="changeimgonlick1()"></div>
       <div id = "jpg2" class = "draggable" onclick="changeimgonlick2()"></div>
       <div></div>
-      <h2 class = 'word' id = 'word9' onclick="changeonlick9()">6 июня 1799г. в</h2>
+      <form action="/action_page.php">
+        <input type="date" id="date" value="1799-06-06" required pattern="\d{4}-\d{2}-\d{2}">
+      </form>
+      <!-- <h2 class = 'word' id = 'word9' onclick="changeonlick9()">6 июня 1799г. в</h2> -->
+      <select id="myselect" name="">
+        <option value="0">в Москве</option>
+        <option value="1">в Уфе</option>
+        <option value="2">в Питере</option>
+        <option value="3">в Рязани</option>
+        <option value="4">в Люберцах</option>
+      </select>
 
       <div id = "buttons">
-        <img id = "info" src="images/info.svg" alt="">
-        <img id = "reset" src="images/reset.svg" alt="">
-        <img id = "export" src="images/export.svg" alt="">
-
+        <img id = "info" src="images/info.svg" alt="" onclick = "infoblocks()">
+        <img id = "reset" src="images/reset.svg" alt="" onclick = "clearall()">
+        <!-- <img id = "export" src="images/export.svg" alt=""> -->
+      </div>
+      <h2 class = 'word' id = 'word10' onclick="changeonlick9()" >в Немецкой слободе.</h2>
+      <div id = "jpg3" class = "draggable" onclick="changeimgonlick3()"></div>
+      <div id = "jpg4" class = "draggable" onclick="changeimgonlick4()"></div>
+      <div class="infowindow visibility">
+        <h1>цель: сложить идеальную<br>биографию методом тыка</h1>
+      <div class="ok" onclick = "infoblocks()">ок</div>
       </div>
     </section>
   </body>
