@@ -7,7 +7,19 @@
     width: 327px;
     height: 114px;
     font-size: 72px;
+    padding-top: 1vh;
   }
+  #secondpage{
+    font-size: 10.5vh;
+    line-height: 115%;
+  }
+  #date {
+    width: 36vw;
+}
+  #jpg1 {
+    bottom: 60vh;
+}
+
 
 }
 
@@ -19,10 +31,22 @@
     font-size: 120px;
   }
 
+  p{
+    font-size: 30px;
+  }
+
   .button{
     width: 327px;
     height: 114px;
     font-size: 72px;
+    padding-top: 1vh;
+  }
+  #buttons{
+    top: -1vh;
+    right:1.5vw;
+  }
+  #info, #reset {
+    height: 4vw;
   }
 
 }
@@ -39,6 +63,39 @@
     width: 266px;
     height: 93px;
     font-size: 64px;
+  }
+
+  #jpg1 {
+    bottom: 43vh;
+    left: 1vw;
+}
+
+#jpg4 {
+  bottom: 49vh;
+}
+  #info, #reset {
+    height: 6vw;
+}
+  #buttons{
+    top: 1vh;
+    right:2vw;
+}
+  #secondpage{
+    margin-top: 2.5vh;
+    font-size: 9.5vh;
+    line-height: 115.68%;
+}
+  #jpg3 {
+    right: -80vw;
+    bottom: 90vh;
+    width: 16vw;
+    height: 20vh;
+}
+  #date{
+    top: - 7vh;
+  }
+  select, #word10{
+    top: -19vh;
   }
 
 
