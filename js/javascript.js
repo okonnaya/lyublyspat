@@ -266,14 +266,12 @@ function changeimgonlick4(){
   }
 }
 
-// function clear(){
-//   alert(8458grre);
-//   document.getElementById("nameinput").value = 'Александр Пушкин';
-//   document.getElementById("word1").innerHTML = "великий";
-// }
 
 function clearall(){
   document.getElementById("nameinput").value = 'Пушкин Александр';
+  document.getElementById("nameinput2").value = 'публицист,';
+  document.getElementById("nameinput2").style.width ="  58vh";
+    document.getElementById("nameinput").style.width =" 65%";
   document.getElementById("date").value = "1799-06-06";
   document.getElementById("myselect").value = "0";
   document.getElementById("word1").innerHTML = "великий";
@@ -295,8 +293,4 @@ function clearall(){
 
 function infoblocks() {
     $(".infowindow" ).toggleClass( "visibility" );
-}
-
-function shakeeffect() {
-   $( "#word6" ).effect( "pulsate" );
 }
