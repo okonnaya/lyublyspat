@@ -2,24 +2,11 @@ function start() {
   firstpage.style.display = "none";
   secondpage.style.display = "block";
 };
-// $( "#word6" ).click(function() {
-//   $( function() {
-//     $( "#dialog" ).dialog();
-//   } );
-// });
 
 
 $( function() {
 $( ".draggable" ).draggable();
 } );
-
-
-// $(function() {
-//   $("#number")
-//     .selectmenu()
-//     .selectmenu("menuWidget")
-//     .addClass("overflow");
-// });
 
 
 var count = 0;
@@ -271,7 +258,7 @@ function clearall(){
   document.getElementById("nameinput").value = 'Пушкин Александр';
   document.getElementById("nameinput2").value = 'публицист,';
   document.getElementById("nameinput2").style.width ="  58vh";
-    document.getElementById("nameinput").style.width =" 65%";
+  document.getElementById("nameinput").style.width =" 65%";
   document.getElementById("date").value = "1799-06-06";
   document.getElementById("myselect").value = "0";
   document.getElementById("word1").innerHTML = "великий";
@@ -286,9 +273,14 @@ function clearall(){
   document.getElementById("jpg2").style.backgroundImage = "url(images/img21.jpg)";
   document.getElementById("jpg3").style.backgroundImage = "url(images/img31.jpg)";
   document.getElementById("jpg4").style.backgroundImage = "url(images/img41.jpg)";
-  // $(".draggable").removeAttr("style");
 
 }
+
+causeRepaintsOn = $("h1, h2, h3, p");
+
+$(window).resize(function() {
+  causeRepaintsOn.css("z-index", 1);
+});
 
 
 function infoblocks() {
