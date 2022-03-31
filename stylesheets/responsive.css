@@ -69,6 +69,10 @@
     font-size: 64px;
   }
 
+  .infowindow{
+    width: 40vw;
+  }
+
   #jpg1 {
     bottom: 43vh;
     left: 1vw;
@@ -120,7 +124,7 @@
   }
 
   #secondpage{
-    font-size: 140px;
+    font-size: 130px;
     line-height: 113%;
     font-weight: 400;
     padding-left: 4%;
@@ -131,6 +135,11 @@
     width: 266px;
     height: 93px;
     font-size: 64px;
+  }
+
+  .infowindow{
+    width: 70vw;
+    left:50%
   }
 
   footer{
@@ -146,14 +155,14 @@
   #nameinput2{
     width: 78vh;
     top: -18vw;
+    left: 52vw;
   }
-
 
   #info, #reset {
-    height: 9vh;
+    height: 11vh;
   }
   #buttons{
-    top: 168vh;
+    top: 159vh;
     left:57vh;
     right: -20vw;
   }
@@ -161,7 +170,7 @@
     margin-left: 50%;
   }
   #word3 {
-    left: 80vw;
+    left: 77vw;
     top: -22vw;
   }
   #word4 {
@@ -171,23 +180,24 @@
     top: -22vw;
   }
   #word7 {
-    left: 112vw;
-    top: -40vw;
+    left: 0vw;
+    top: -15vw;
   }
   #word8 {
     top: -36vw;
+    left: 73vw;
   }
   #word10 {
     display: block;
     position: absolute;
-    top: 143vh;
+    top: 140vh;
     left: -14vh;
-    width: 1003px;
+    width: 1318px;
   }
 
   #date {
-    top: -63vh;
-    right: -53vh;
+    top: -48vh;
+    right: 0vh;
     width: 67vh;
   }
 
@@ -200,27 +210,28 @@
 
   #jpg3 {
     bottom: 139vh;
-    right: -127vw;
+    right: -112vw;
     width: 41vw;
     height: 20vh;
   }
 
   #jpg2 {
-    top: -33vh;
-    width: 175vw;
+    top: -18vh;
+    width: 171vw;
     height: 11vh;
   }
 
   #jpg4 {
-    bottom: 62vh;
-    width: 47vw;
-    height: 15vh;
-    right: -129vw;
+    bottom: 131vh;
+    width: 41vw;
+    height: 13vh;
+    right: 0;
   }
   select {
-    top: -46vh;
-    height: 15vh;
-    left: 0vh;
+    top: -64vh;
+    height: 16vh;
+    left: 68vh;
+    width: 79vw;
   }
 
   #below {
@@ -273,6 +284,30 @@
   #below{
     height: 60%;
   }
+
+  .infowindow {
+      top: 116vh;
+      padding-left: 5vw;
+      padding-right: 5vw;
+      padding-top: 8vw;
+      font-size: 80px;
+      width: 233vw;
+      left: 50%;
+      height: 167vw;
+      border-radius: 120px;
+  }
+  .ok{
+    bottom: 10vh;
+    left: 40%;
+    width: 16vh;
+    height: 12vh;
+    font-size: 80px;
+    padding-top: 1vh;
+
+  }
+
+
+
 
   #secondpage{
     font-size:180px;
@@ -392,5 +427,174 @@
   body{
     width: 360px;
   }
+  h3{
+    font-size: 58px;
+  }
+
+  p{
+  font-size: 17px;
+}
+
+  .button{
+    width:237px;
+    height: 74px;
+    font-size: 58px;
+  }
+
+  footer{
+    height: 9%;
+  }
+
+.button{
+  width:202px;
+  height: 64px;
+  margin-right: 3%;
+  font-size: 48px;
+}
+
+
+#signature2 {
+  position: absolute;
+  top: 13px;
+  right:3%
+}
+
+#below{
+  height: 40%;
+}
+
+#secondpage{
+  font-size:140px;
+  margin-left: 70px;
+  margin-top:70px;
+}
+#nameinput11, #nameinput12{
+  display: block;
+  border-radius: 205px;
+}
+#nameinput11{
+  padding-bottom: 1vw;
+  height: 142px;
+  width: 305%;
+}
+  #nameinput12{
+    padding-bottom: 1vw;
+    height: 142px;
+    width: 370%;
+    background-color: #73BCFF;
+    top: 3vh;
+}
+
+  #word1 {
+    margin-left: 120vw;
+    top:-1vh;
+  }
+
+  #word2 {
+    display: none;
+  }
+
+#nameinput{
+  display: none;
+}
+#word4 {
+  top: -57vw;
+  left:119vw;
+}
+#word5 {
+  display: none;
+}
+#nameinput2 {
+  width: 170vh;
+  padding-bottom: 9vw;
+  height: 142px;
+  top: -26vh;
+  border-radius: 205px;
+}
+#word7 {
+  top: -54vw;
+}
+#word8 {
+  top: -54vw;
+}
+
+#date {
+  width:170vh;
+  padding-bottom: 4vh;
+  height: 142px;
+  border-radius: 205px;
+  top: -67vh;
+}
+
+select {
+    width: 105vh;
+    height: 152px;
+    border-radius: 183px;
+    top: -40vh;
+    left: 111vw;
+}
+
+#word10 {
+  top: -41vh;
+  width: 298vw;
+  left: -18vw;
+}
+
+#buttons {
+  top: 311vh;
+  right: -114vw;
+}
+
+#info, #reset {
+  height: 140px;;
+}
+
+.infowindow {
+    top: 116vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 8vw;
+    font-size: 80px;
+    width: 233vw;
+    left: 50%;
+    height: 167vw;
+    border-radius: 120px;
+}
+.ok {
+    bottom: 8vh;
+    left: 40%;
+    width: 26vh;
+    height: 17vh;
+    font-size: 80px;
+    padding-top: 1vh;
+}
+
+
+#jpg2 {
+  top: -17vh;
+  width: 298vw;
+  height: 18vh;
+}
+#jpg1 {
+  display:block;
+  bottom: 145vh;
+  left: 0vw;
+  width: 105vw;
+  height: 19vh;
+}
+
+#jpg3 {
+  bottom: 207vh;
+  right: -192vw;
+  width: 102vw;
+  height: 36vh;
+}
+
+#jpg4 {
+  bottom: 148vh;
+  width: 79vw;
+  height: 22vh;
+}
+
 
 }
