@@ -9,24 +9,26 @@
     font-size: 72px;
     padding-top: 1vh;
   }
+
   #secondpage{
     font-size: 10.5vh;
     line-height: 115%;
   }
+
   #date {
     width: 36vw;
-}
+  }
+
   #jpg1 {
     bottom: 60vh;
-}
-
-
+  }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1366px){
   body{
     width: 1366px;
   }
+
   h3{
     font-size: 120px;
   }
@@ -41,20 +43,22 @@
     font-size: 72px;
     padding-top: 1vh;
   }
+
   #buttons{
     top: -1vh;
     right:1.5vw;
   }
+
   #info, #reset {
     height: 4vw;
   }
-
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px){
   body{
     width: 1024px;
   }
+
   h3{
     font-size: 100px;
   }
@@ -68,39 +72,43 @@
   #jpg1 {
     bottom: 43vh;
     left: 1vw;
-}
+  }
 
-#jpg4 {
-  bottom: 49vh;
-}
+  #jpg4 {
+    bottom: 49vh;
+  }
+
   #info, #reset {
     height: 6vw;
-}
+  }
+
   #buttons{
     top: 1vh;
     right:2vw;
-}
+  }
+
   #secondpage{
     margin-top: 2.5vh;
     font-size: 9.5vh;
     line-height: 115.68%;
-}
+  }
+
   #jpg3 {
     right: -80vw;
     bottom: 90vh;
     width: 16vw;
     height: 20vh;
-}
+  }
+
   #date{
     top: - 7vh;
   }
+
   select, #word10{
     top: -19vh;
   }
-
-
-
 }
+
 @media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
   /* iPad */
   body{
@@ -108,9 +116,16 @@
   }
 
   h3{
-    font-size: 100px;
-}
+    font-size: 95px;
+  }
 
+  #secondpage{
+    font-size: 140px;
+    line-height: 113%;
+    font-weight: 400;
+    padding-left: 4%;
+    padding-top: 4%;
+  }
 
   .button{
     width: 266px;
@@ -121,7 +136,102 @@
   footer{
     height: 13%;
   }
+
+  input{
+    width: 180%;
+    padding-bottom: 5%;
+    padding-top: 3%;
+  }
+
+  #nameinput2{
+    width: 78vh;
+    top: -18vw;
+  }
+
+
+  #info, #reset {
+    height: 9vh;
+  }
+  #buttons{
+    top: 168vh;
+    left:57vh;
+    right: -20vw;
+  }
+  #word1 {
+    margin-left: 50%;
+  }
+  #word3 {
+    left: 80vw;
+    top: -22vw;
+  }
+  #word4 {
+    top: -22vw;
+  }
+  #word5 {
+    top: -22vw;
+  }
+  #word7 {
+    left: 112vw;
+    top: -40vw;
+  }
+  #word8 {
+    top: -36vw;
+  }
+  #word10 {
+    display: block;
+    position: absolute;
+    top: 143vh;
+    left: -14vh;
+    width: 1003px;
+  }
+
+  #date {
+    top: -63vh;
+    right: -53vh;
+    width: 67vh;
+  }
+
+  #jpg1 {
+    bottom: 115vh;
+    left: 0vw;
+    width: 36vw;
+    height: 12vh;
+  }
+
+  #jpg3 {
+    bottom: 139vh;
+    right: -127vw;
+    width: 41vw;
+    height: 20vh;
+  }
+
+  #jpg2 {
+    top: -33vh;
+    width: 175vw;
+    height: 11vh;
+  }
+
+  #jpg4 {
+    bottom: 62vh;
+    width: 47vw;
+    height: 15vh;
+    right: -129vw;
+  }
+  select {
+    top: -46vh;
+    height: 15vh;
+    left: 0vh;
+  }
+
+  #below {
+    height: 17vh;
+  }
+
+  #separator3, #separator2  {
+    display: none;
+  }
 }
+
 @media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
     /* iPhone */
     body{
@@ -130,9 +240,9 @@
 
     h3{
       font-size: 58px;
-  }
+    }
 
-  p{
+    p{
     font-size: 20px;
   }
 
@@ -143,44 +253,14 @@
     }
 
     footer{
-      height: 13%;
+      height: 9%;
     }
-
-
-    #signature2 {
-      position: absolute;
-      top: 13px;
-      right:3%
-    }
-
-    #below{
-      height: 70%;
-    }
-    .button{
-      margin-right: 3%;
-    }
-}
-@media only screen and (max-device-width: 360px){
-  /* Android */
-  body{
-    width: 360px;
-  }
-
-  h3{
-    font-size: 48px;
-  }
-
-  p{
-    font-size: 18px;
-  }
 
   .button{
     width:202px;
     height: 64px;
+    margin-right: 3%;
     font-size: 48px;
-  }
-  footer{
-    height: 13%;
   }
 
 
@@ -191,11 +271,126 @@
   }
 
   #below{
-    height: 65%;
-  }
-  .button{
-    margin-right: 3%;
+    height: 60%;
   }
 
+  #secondpage{
+    font-size:180px;
+    margin-left: 70px;
+    margin-top:70px;
+  }
+  #nameinput11, #nameinput12{
+    display: block;
+    border-radius: 205px;
+  }
+  #nameinput11{
+    padding-bottom: 1vw;
+    height: 209px;
+    width: 305%;
+  }
+  #nameinput12{
+    padding-bottom: 1vw;
+    height: 209px;
+    width: 370%;
+    background-color: #73BCFF;
+    top: 3vh;
+  }
+
+  #word1 {
+      margin-left: 120vw;
+      top:2vh;
+    }
+    #word2 {
+      display: none;
+    }
+
+  #nameinput{
+    display: none;
+  }
+  #word4 {
+    top: -57vw;
+    left:119vw;
+  }
+  #word5 {
+    display: none;
+  }
+  #nameinput2 {
+    width: 141vh;
+    padding-bottom: 9vw;
+    height: 178px;
+    top: -21vh;
+    border-radius: 205px;
+}
+  #word7 {
+    top: -54vw;
+}
+  #word8 {
+    top: -54vw;
+}
+
+  #date {
+    width: 370%;
+    padding-bottom: 4vh;
+    height: 179px;
+    border-radius: 205px;
+    top: -59vh;
+  }
+
+  select {
+    width: 101vh;
+    height: 216px;
+    border-radius: 205px;
+    top: -32vh;
+    left:90vw;
+  }
+
+  #word10 {
+    top: -33vh;
+    width: 298vw;
+    left: -18vw;
+  }
+
+  #buttons {
+    top: 302vh;
+    right: -114vw;
+  }
+
+  #info, #reset {
+    height: 170px;;
+  }
+
+  #jpg2 {
+    top: -11vh;
+    width: 298vw;
+    height: 18vh;
+  }
+  #jpg1 {
+    display:block;
+    bottom: 133vh;
+    left: 0vw;
+    width: 105vw;
+    height: 19vh;
+}
+
+  #jpg3 {
+    bottom: 192vh;
+    right: -192vw;
+    width: 102vw;
+    height: 36vh;
+}
+
+  #jpg4 {
+    bottom: 138vh;
+    width: 79vw;
+    height: 22vh;
+  }
+}
+
+
+@media only screen and (max-device-width: 360px){
+  /* Android */
+  body{
+    width: 360px;
+  }
 
 }
