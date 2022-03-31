@@ -216,20 +216,20 @@ function changeimgonlick2(){
 var count = 0;
 function changeimgonlick3(){
   if (count == 0) {
-    document.getElementById("jpg3").style.backgroundImage = "url(images/img32.jpg)";
+    document.getElementById("jpg3").style.backgroundImage = "url(images/img32.png)";
     count++;
   } else if (count == 1) {
-    document.getElementById("jpg3").style.backgroundImage = "url(images/img33.jpg)";
+    document.getElementById("jpg3").style.backgroundImage = "url(images/img33.png)";
     count++;
   } else if (count == 2) {
-    document.getElementById("jpg3").style.backgroundImage = "url(images/img34.jpg)";
+    document.getElementById("jpg3").style.backgroundImage = "url(images/img34.png)";
     count++;
   }else if (count == 3) {
-    document.getElementById("jpg3").style.backgroundImage = "url(images/img35.jpg)";
+    document.getElementById("jpg3").style.backgroundImage = "url(images/img35.png)";
     count++;
   }else if (count > 3) {
   	count = 0;
-    document.getElementById("jpg3").style.backgroundImage = "url(images/img31.jpg)";
+    document.getElementById("jpg3").style.backgroundImage = "url(images/img31.png)";
   }
 }
 
