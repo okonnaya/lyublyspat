@@ -6,8 +6,8 @@
   /* font-size: 110px; */
   font-size: 10vh;
   line-height: 115.68%;
-  margin-left: 2%;
-  margin-top: 1vh;
+  left: 2%;
+  top: 1vh;
   display: none;
 }
 
@@ -177,7 +177,7 @@ select::selection{
 }
 
 #buttons{
-  position: fixed;
+  position: absolute;
   top: -2vh;
   right:1vw;
 }
@@ -236,4 +236,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .visibility{
   display: none
+}
+
+#nameinput11, #nameinput12{
+  display: none;
 }
