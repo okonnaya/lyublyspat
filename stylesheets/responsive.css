@@ -286,15 +286,15 @@
   }
 
   .infowindow {
-      top: 116vh;
-      padding-left: 5vw;
-      padding-right: 5vw;
-      padding-top: 8vw;
-      font-size: 80px;
-      width: 233vw;
-      left: 50%;
-      height: 167vw;
-      border-radius: 120px;
+    top: 116vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 8vw;
+    font-size: 80px;
+    width: 233vw;
+    left: 50%;
+    height: 167vw;
+    border-radius: 120px;
   }
   .ok{
     bottom: 10vh;
@@ -496,27 +496,32 @@
 
 #nameinput{
   display: none;
-}
+  }
+
 #word4 {
   top: -57vw;
   left:119vw;
-}
+  }
+
 #word5 {
   display: none;
-}
+  }
+
 #nameinput2 {
   width: 170vh;
   padding-bottom: 9vw;
   height: 142px;
   top: -26vh;
   border-radius: 205px;
-}
+  }
+
 #word7 {
   top: -54vw;
-}
+  }
+
 #word8 {
   top: -54vw;
-}
+  }
 
 #date {
   width:170vh;
@@ -524,30 +529,30 @@
   height: 142px;
   border-radius: 205px;
   top: -67vh;
-}
+  }
 
 select {
-    width: 105vh;
-    height: 152px;
-    border-radius: 183px;
-    top: -40vh;
-    left: 111vw;
-}
+  width: 105vh;
+  height: 152px;
+  border-radius: 183px;
+  top: -40vh;
+  left: 111vw;
+  }
 
 #word10 {
   top: -41vh;
   width: 298vw;
   left: -18vw;
-}
+  }
 
 #buttons {
   top: 311vh;
   right: -114vw;
-}
+  }
 
 #info, #reset {
   height: 140px;;
-}
+  }
 
 .infowindow {
     top: 116vh;
@@ -559,7 +564,8 @@ select {
     left: 50%;
     height: 167vw;
     border-radius: 120px;
-}
+  }
+
 .ok {
     bottom: 8vh;
     left: 40%;
@@ -567,34 +573,32 @@ select {
     height: 17vh;
     font-size: 80px;
     padding-top: 1vh;
-}
-
+  }
 
 #jpg2 {
   top: -17vh;
   width: 298vw;
   height: 18vh;
-}
+  }
+
 #jpg1 {
   display:block;
   bottom: 145vh;
   left: 0vw;
   width: 105vw;
   height: 19vh;
-}
+  }
 
 #jpg3 {
   bottom: 207vh;
   right: -192vw;
   width: 102vw;
   height: 36vh;
-}
+  }
 
 #jpg4 {
   bottom: 148vh;
   width: 79vw;
   height: 22vh;
-}
-
-
+  }
 }
